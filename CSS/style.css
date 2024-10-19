@@ -1,12 +1,13 @@
 body{
     margin: 0px;
 }
-header{
+.fixed-menu{
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    align-items: center;
+    padding: 2% 5%;
     background-color: rgb(255, 234, 207);
-}
+    
 nav ul{
     display: flex;
 }
@@ -16,9 +17,41 @@ nav ul li{
     list-style: none;
     margin-right: 15px;
     padding: 7px;
-    background-color: rgb(253, 163, 61);
+    width: 65px;
+    height: 20px;
+    background-color: rgba(255, 103, 2, 0.918);
     border-radius: 7px;
+    justify-content: center;
+    
 }
 nav ul li a{
     text-decoration: none;
+    color:rgb(255, 255, 255)
+}
+.btn{
+    background-color: #023047;
+    color: aliceblue;
+    border: none;
+    width: 65px;
+    border-radius: 7px;
+    justify-content: center;
+}
+.btn:hover{
+    font-weight: 600;
+    background-color: #219abc;
+    box-shadow: #001925;
+    
+}
+
+nav ul li >a:hover{
+    background-color: #001925;
+    color: white;
+    font-weight: 550;
+    border-bottom:1px  #001925;
+}
+nav ul li:hover{
+    background-color: #001925;
+    color: white;
+    font-weight: 550;
+    border-bottom:1px  #001925;
 }
