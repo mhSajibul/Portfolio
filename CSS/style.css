@@ -135,7 +135,7 @@ nav ul li a:hover{
 }
 .contacBox{
     background-color: #d6e1ff;
-    width: 500px;
+    width: 420px;
     height: 240px;
     border-top-right-radius: 30px;
     padding: 40px;
@@ -147,4 +147,12 @@ footer{
     color: white;
     height: 90px;
     padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer li a{
+    color: white;
+}
+.footer li a:hover{
+    border-bottom: 1px solid white;
 }
