@@ -10,23 +10,135 @@
 
 <body>
     <header>
-        <section class="fixed-menu">
-        <h2 class="logo-title">mrDiv</h2>
-        <nav>
-            <ul id="menu">
-                <li><a href="">Services</a></li>
-                <li><a href="">My Skills</a></li>
-                <li><a href="">Contact</a></li>
-                <button class="btn">Hire Me</button>
-            </ul>
-        </nav>
-    </section>
+        <section class="navigation">
+            <div>
+                <a href="#home" style="text-decoration: none;">
+                    <h2 class="logo-title">mrDeveloper</h2>
+                </a>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#My-Service">Services</a></li>
+                    <li><a href="#My-Skills">My Skills</a></li>
+                    <li><a href="#ContactMe">Contact</a></li>
+                    <li class="btn"><a href="#ContactMe">Hire Me</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="hero" id="home">
+            <img src="Image/my photo.png" alt="" width="360px" height="auto">
+            <div class="main-text">
+                <h1 style="font-size: 2.5rem;">Hi, I am Sojibul Islam</h1>
+                <p style="text-align: justify;">I'm a passionate web developer specializing in creating responsive,
+                    user-friendly websites.
+                    Let's build something amazing together!</p>
+                <button class="primary-button"><a href="#ContactMe" style="color:white; text-decoration:none">Get in Touch</a></button>
+            </div>
+        </section>
     </header>
     <main>
+        <section class="about">
+            <h1>About Me</h1>
+            <p style="text-align: justify;">I’m a dedicated <strong>Web Developer</strong> with a passion for building
+                efficient and user-centric websites.
+                With a solid foundation in both front-end and back-end technologies, I specialize in crafting
+                responsive and visually appealing websites that provide a seamless user experience across all devices.
+                My expertise spans HTML, CSS, JavaScript, and popular frameworks like React and Vue, alongside
+                back-end technologies such as Node.js and databases like MongoDB and SQL.</p>
+
+            <p style="text-align: justify;">As a fast learner and a proactive team player, I enjoy collaborating on
+                projects and embracing new
+                challenges. My goal is to leverage my skills and experience to create meaningful digital solutions
+                that help people and businesses thrive in the digital world. When I'm not coding, I enjoy exploring
+                the latest web development trends and contributing to open-source projects.</p>
+        </section>
+
+        <section id="My-Skills" style="margin-top: 80px;">
+            <h1 style="text-align: center; margin: 15px;">My Skills</h1>
+            <div class="my-slills">
+                <div class="skill">
+                    <h3>Web Development</h3>
+                    <p>Crafting responsive and functional websites through coding and design to ensure smooth user
+                        experiences.</p>
+                </div>
+                <div class="skill">
+                    <h3>Logo Design</h3>
+                    <p>Creating unique and memorable symbols that represent a brand’s identity and values.</p>
+                </div>
+                <div class="skill">
+                    <h3>UI & UX Design</h3>
+                    <p>Designing intuitive and visually appealing interfaces to enhance user satisfaction and ease of
+                        interaction.</p>
+                </div>
+        </section>
+        <section id="My-Service" style="margin-top: 80px;">
+            <h1 style="text-align: center; margin: 15px;">My Services</h1>
+            <div class="myService">
+                <div class="service">
+                    <img src="Icons/web.png" alt="Web Development" height="100px" width="auto">
+                    <div>
+                        <h3>Web Development</h3>
+                        <button class="primary-button">Purchase</button>
+                    </div>
+                </div>
+                <div class="service">
+                    <img src="Icons/vector.png" alt="Graphics Design" height="100px" width="auto">
+                    <div>
+                        <h3>Graphics Design</h3>
+                        <button class="primary-button">Purchase</button>
+                    </div>
+                </div>
+                <div class="service">
+                    <img src="Icons/ui-ux.png" alt="UI & UX Design" height="100px" width="auto">
+                    <div>
+                        <h3> UI & UX Design</h3>
+                        <button class="primary-button">Purchase</button>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <img src="Icons/settings.png" alt="Website Maintenance" height="100px" width="auto">
+                    <div>
+                        <h3>Website Maintenance</h3>
+                        <button class="primary-button">Purchase</button>
+                    </div>
+                </div>
+        </section>
+
+        <section id="ContactMe">
+            <h1 style="text-align: center; margin: 15px;">Contact With Me:</h1>
+            <div class="Contact">
+                <div class="contacBox">
+                    <form>
+                    <label for="Name">Your Name:</label><br>
+                    <input type="text" id="Name" name="Name"><br><br>
+                    <label for="email">Your Email:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="Comment">Comment:</label><br>
+                    <textarea name="comment" form="usrform" placeholder="Enter text here..."></textarea><br>
+                    <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+
+                <div class="contacBox">
+                    <p>Name: Sojibul Islam</p>
+                    <p>Contact Number: +880 1624-584129</p>
+                    <p>Email: <a href="mailto:mh.sajibul@gmail.com">mh.sajibul@gmail.com</a></p>
+                    <address>
+                        <p>Address: House #186, Shirajuddin Road, Tekpara, Dattapara<br>
+                            Tongi East, Gazipur, Dhaka, Bangladesh</p>
+                    </address>
+                </div>
+            </div>
+
+        </section>
+
 
     </main>
     <footer>
-
+        <p> &COPY; 2024 Sojibul Islam. All rights reserved.</p>
     </footer>
 </body>
 

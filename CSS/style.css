@@ -1,57 +1,150 @@
-body{
-    margin: 0px;
-}
-.fixed-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2% 5%;
-    background-color: rgb(255, 234, 207);
-    
-nav ul{
-    display: flex;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
 }
 
-nav ul li{
+body{
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+}
+.main{
+    margin-bottom: 50px;
+}
+.navigation{
+    position: fixed;
+    top: 0;
+    width: 93%;
     display: flex;
-    list-style: none;
-    margin-right: 15px;
-    padding: 7px;
-    width: 65px;
-    height: 20px;
-    background-color: rgba(255, 103, 2, 0.918);
-    border-radius: 7px;
-    justify-content: center;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+#home{
+    margin-left: 0;
+}
+nav{
+    display: flex;
+    overflow: hidden;
     
+}
+nav > ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin-left: 30px;
+    justify-content: center;
 }
 nav ul li a{
     text-decoration: none;
-    color:rgb(255, 255, 255)
-}
-.btn{
-    background-color: #023047;
-    color: aliceblue;
-    border: none;
-    width: 65px;
-    border-radius: 7px;
-    justify-content: center;
-}
-.btn:hover{
-    font-weight: 600;
-    background-color: #219abc;
-    box-shadow: #001925;
-    
+    color: #2d2d2d;
 }
 
-nav ul li >a:hover{
-    background-color: #001925;
-    color: white;
-    font-weight: 550;
-    border-bottom:1px  #001925;
+nav ul li a:hover{
+    border-bottom: 1px solid hsla(229, 100%, 27%, 0.925);
 }
-nav ul li:hover{
-    background-color: #001925;
+.btn a{
+    background-color: rgb(14, 0, 141);
     color: white;
-    font-weight: 550;
-    border-bottom:1px  #001925;
+    border-bottom: 1px;
+    padding:3px 5px;
+    align-items: center;
+    border-radius: 7px;
+    margin-top:0 ;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    border-radius: 7px;
+    background-color: rgb(0, 120, 218);
+}
+
+.hero{
+    margin-top: 75px;
+    background-color: rgb(254, 240, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 70px;
+}
+.main-text{
+    margin-left: 150px;
+}
+.primary-button{
+    padding: 3px 15px;
+    background-color: rgb(14, 0, 141);
+    border-radius: 7px;
+    color: white;
+    border-style: none;
+    height: 30px;
+    font-weight: 500;
+
+}
+.primary-button:hover{
+    background-color: rgb(0, 120, 218);
+}
+.about{
+    margin: 20px 70px;
+
+}
+
+.skill{
+    background-color: #edf6fd;
+    width: 20%;
+    height: auto;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    border-left: 5px solid #5d88ff;
+
+}
+
+.my-slills, .myService{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+.service{
+    background-color: #edf6fd;
+    width: 15%;
+    height: auto;
+    padding: 30px 20px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius:  30px;
+    border-bottom: 5px solid #5d88ff;
+
+}
+
+.Contact{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+.contacBox{
+    background-color: #d6e1ff;
+    width: 500px;
+    height: 240px;
+    border-top-right-radius: 30px;
+    padding: 40px;
+    align-items: center;
+    
+}
+footer{
+    background-color: #2d2d2d;
+    color: white;
+    height: 90px;
+    padding: 30px;
 }
