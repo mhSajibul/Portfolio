@@ -150,9 +150,9 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-.footer li a{
+.footerNav li a{
     color: white;
 }
-.footer li a:hover{
+.footerNav li a:hover{
     border-bottom: 1px solid white;
 }
