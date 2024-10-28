@@ -11,7 +11,7 @@
 body{
     margin: 0px;
     padding: 0;
-    width: 100%;
+    
 }
 .main{
     margin-bottom: 50px;
@@ -19,16 +19,14 @@ body{
 .navigation{
     position: fixed;
     top: 0;
-    width: 93%;
+    width: 100vw;
     display: flex;
     background-color: antiquewhite;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 5px 50px;
 }
-#home{
-    margin-left: 0;
-}
+
 nav{
     display: flex;
     overflow: hidden;
@@ -67,9 +65,11 @@ nav ul li a:hover{
     background-color: rgb(0, 120, 218);
 }
 
+/* Hero section css */
+
 .hero{
     margin-top: 75px;
-    background-color: rgb(254, 240, 255);
+    background-color: #ffffce;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -91,10 +91,23 @@ nav ul li a:hover{
 .primary-button:hover{
     background-color: rgb(0, 120, 218);
 }
-.about{
-    margin: 20px 70px;
 
+
+.about{
+    display: flex;
+    margin: 30px 70px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
 }
+.aboutMe, .blogBox{
+    padding: 30px;
+    width: 500px;
+    background-color:#edf6fd;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: ;
+}
+
+
 
 .skill{
     background-color: #edf6fd;
